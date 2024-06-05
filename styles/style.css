@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: #4CAF50;
+    color: white;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.btn {
+    background: white;
+    color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cover {
+    position: relative;
+    width: 100%;
+    height: 650px;
+}
+
+.cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    /* width: 90px; */
+    /* max-width: 900px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.features, .about {
+    padding: 40px, 0;
+    text-align: center;
+}
+
+.features h2, .about h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px, 0;
+}
+
+.feature img {
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    margin-bottom: 10px;
+}
+
+.about p, .about ul {
+    margin: 20px, 0;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about ul li {
+    margin: 10px, 0;
+}
+
+.about ul li a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.about ul li a:hover {
+    text-decoration: underline;
+}
